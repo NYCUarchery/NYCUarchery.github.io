@@ -29,7 +29,7 @@ window.addEventListener('load', init);
 var table_id = ["B_table", "CF_table", "CM_table", "beg_table"];
 var POSITION_POINT = ["A","B","C","D"];
 var PlAYER_GROUP = ["B_Grad", "C_Grad_F", "C_Grad_M", "Starter", "SPECIAL"];
-var PlAYER_GROUP_ch=["乙組","女子丙組","男子丙組","新生組"];
+var PlAYER_GROUP_ch=["公開70m","公開30m","大專30m","新生組"];
 var Player_count=[];
 var Elim_top=[];
 function main_sel(evt,sel){
