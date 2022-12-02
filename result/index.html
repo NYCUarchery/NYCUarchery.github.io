@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>風城盃記錄系統</title>
+    <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1.0,user-scalable=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--my CSS-->
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/viewscore.css">
+	<link rel="stylesheet" href="css/loading.css">
+</head>
+	<body height="100%" >
+	<object id="main_frame" data="qualification_result.html"  type="text/html" width="100%"></object>
+	
+	<div style="background-color:skyblue;bottom:0;position:fixed;width:100%">
+		<table style="color:black; height:40px;width:100%;margin-top:auto;margin-bottom:auto"> 
+			<tr>
+			 <td  style="width:85%;">
+				<div class="select-style" style="font-size: 18px;">
+				  <select onChange="openTab(event,this.value)" id="mainselection">
+					<option value="qualification_result.html" >資格賽</option>
+					<option value="elimination_result.html">對抗賽</option>
+					<option value="G_elimination_result.html">團體對抗賽</option>
+					<option value="map.html">地圖</option>
+					<option value="doc/秩序冊.pdf">下載秩序冊</option>
+				  </select>
+				</div>
+			  </td>
+			 </tr>
+		</table>
+	</div>
+	
+	<script>
+	
+	console.log(document.getElementById("main_frame").scripts)</script>
+	<footer>
+        <!--jQuery-->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!--my js-->
+        <script src="js/jquery-ui.min.js"></script>
+		<script src="js/viewscore.js"></script>
+		
+    </footer>
+	</body>
+
+
+</html>
